@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+
+    <dimen name="button_radius">4dp</dimen>
+
+
+    <dimen name="widget_margin">8dp</dimen>
+
+    <dimen name="drawer_width">240dp</dimen>
+
+    <dimen name="time_width">40sp</dimen>
+
+    <dimen name="divider">1px</dimen>
+    <dimen name="panel_divider">1dp</dimen>
+
+
+    <dimen name="grid_divider">1dp</dimen>
+    <dimen name="grid_text">14dp</dimen>
+</resources>

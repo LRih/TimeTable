@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ====================================================================== MISC -->
+    <string name="app_name">TimeTable</string>
+
+    <string name="ok">OK</string>
+
+    <string name="connection_error">Connection error</string>
+    <string name="unspecified_error">Unspecified error</string>
+    <string name="retry">Retry</string>
+
+    <!-- ====================================================================== MAIN -->
+    <string name="about_msg">Version: %1$s\n\nCopyright © %2$s\nRichard L\n\nAll rights reserved</string>
+
+    <string name="sts">STS</string>
+    <string name="add_from_sts">Add from STS</string>
+    <string name="import_from_personal_sts">Import from personal STS</string>
+
+    <string name="grid">Grid</string>
+    <string name="list">List</string>
+
+    <string-array name="options">
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+
+    <!-- ====================================================================== NEXT -->
+    <string name="next">Next</string>
+    <string name="current">Current</string>
+
+    <string name="started_x_ago">started %s ago</string>
+    <string name="ended_x_ago">ended %s ago</string>
+    <string name="starts_in_x">starts in %s</string>
+
+    <plurals name="days">
+        <item quantity="one">day</item>
+        <item quantity="other">days</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">hour</item>
+        <item quantity="other">hours</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">minute</item>
+        <item quantity="other">minutes</item>
+    </plurals>
+
+    <!-- ====================================================================== LIST -->
+    <string name="x_hour_break">%d hour break</string>
+    <string name="clash">clash</string>
+
+    <string name="no_sts_data_available">No STS data available</string>
+
+    <string name="class_added">Class added</string>
+    <string name="class_added_failure">Failed to add class</string>
+    <string name="class_updated">Class updated</string>
+    <string name="class_updated_failure">Failed to update class</string>
+    <string name="class_deleted">Class deleted</string>
+
+    <!-- ====================================================================== STS -->
+    <string name="schools">Schools</string>
+
+    <string name="no_schools_found">No schools found</string>
+    <string name="no_courses_found">No courses found</string>
+    <string name="no_classes_found">No classes found</string>
+    <string name="no_classes_to_show">No classes to show</string>
+
+    <!-- ====================================================================== IMPORT -->
+    <string name="import_name">Import</string>
+    <string name="import_msg">Login to your STS account and go to \'Print preview\'. Copy/paste here the timetable text on the page (selection need not be exact).</string>
+
+    <string name="sts_account">STS Account</string>
+    <string name="importing">Importing…</string>
+
+    <string name="classes">Classes</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="classes_imported">Classes imported</string>
+    <string name="some_classes_imported">Some classes imported</string>
+
+    <!-- ====================================================================== EDIT -->
+    <string name="new_class">New Class</string>
+    <string name="edit_class">Edit Class</string>
+
+    <string name="course">Course</string>
+    <string name="type">Type</string>
+    <string name="room">Room</string>
+
+    <string name="to">to</string>
+
+    <string name="course_cannot_be_empty">Course cannot be empty</string>
+    <string name="hour_must_be_between_0_23">Hour must be between 0-23</string>
+    <string name="minute_must_be_between_0_59">Minute must be between 0-59</string>
+    <string name="end_time_must_be_after_start_time">End time must be after start time</string>
+</resources>

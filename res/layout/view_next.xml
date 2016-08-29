@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="@dimen/margin_12"
+    android:gravity="center_vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <ric.ov.TimeTable.Views.ClassView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextClass"
+        android:clickable="true"
+        android:background="@drawable/item_clear" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblNextTimeMessage"
+        android:layout_gravity="right"
+        android:textSize="@dimen/text_18"
+        android:textColor="@color/text_50" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layLast">
+
+        <ric.ov.TimeTable.Views.ClassView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastClass"
+            android:clickable="true"
+            android:background="@drawable/item_clear" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblLastTimeMessage"
+            android:layout_gravity="right"
+            android:textSize="@dimen/text_18"
+            android:textColor="@color/text_50" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

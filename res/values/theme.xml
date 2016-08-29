@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Main" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowContentOverlay">@drawable/shadow</item>
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/primary</item>
+
+        <item name="actionBarStyle">@style/Theme.Main.ActionBar</item>
+        <item name="alertDialogTheme">@style/Theme.Main.Dialog</item>
+
+        <item name="buttonStyle">@style/Theme.Main.Button</item>
+        <item name="android:textViewStyle">@style/Theme.Main.TextView</item>
+        <item name="editTextStyle">@style/Theme.Main.EditText</item>
+        <item name="autoCompleteTextViewStyle">@style/Theme.Main.EditText</item>
+        <item name="android:listViewStyle">@style/Theme.Main.ListView</item>
+    </style>
+
+
+    <style name="Theme.Main.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/primary</item>
+        <item name="titleTextStyle">@style/Theme.Main.ActionBar.Title</item>
+        <item name="subtitleTextStyle">@style/Theme.Main.ActionBar.Subtitle</item>
+    </style>
+    <style name="Theme.Main.ActionBar.Title" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_title</item>
+    </style>
+    <style name="Theme.Main.ActionBar.Subtitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">@color/actionbar_subtitle</item>
+    </style>
+
+    <style name="Theme.Main.Dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/primary</item>
+    </style>
+
+
+    <style name="Theme.Main.Button" parent="android:style/Widget.Button">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:padding">@dimen/margin_12</item>
+        <item name="android:textColor">@drawable/text</item>
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+    <style name="Theme.Main.Button.Clear">
+        <item name="android:background">@drawable/button_clear</item>
+        <item name="android:padding">@dimen/margin_8</item>
+        <item name="android:textColor">@color/text_50</item>
+    </style>
+
+    <style name="Theme.Main.TextView" parent="android:style/Widget.TextView">
+        <item name="android:textColor">@color/text_80</item>
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+    <style name="Theme.Main.EditText" parent="@style/Widget.AppCompat.EditText">
+        <item name="android:textColor">@drawable/text</item>
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+    <style name="Theme.Main.EditText.Time">
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">2</item>
+        <item name="android:selectAllOnFocus">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Theme.Main.ListView" parent="@style/Widget.AppCompat.ListView">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+</resources>

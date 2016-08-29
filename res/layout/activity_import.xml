@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_12"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/txtInput"
+        android:hint="@string/import_msg"
+        android:layout_weight="1"
+        android:background="@color/background_import"
+        android:padding="@dimen/margin_8" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_12">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layButtons">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sts_account"
+                android:onClick="onSTSClick"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ok"
+                android:onClick="onOKClick"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/margin_8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/layProgress"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/progressBarStyleSmall" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/importing"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:textColor="@color/text_50" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+

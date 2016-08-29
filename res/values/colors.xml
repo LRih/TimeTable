@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#fff</color>
+    <color name="background_panel">#fafafa</color>
+    <color name="background_import">#ffb</color>
+
+    <color name="actionbar_title">#fff</color>
+    <color name="actionbar_subtitle">#cfff</color>
+
+    <color name="primary">#fb0</color>
+    <color name="primary_dark">#e0a500</color>
+
+
+    <color name="text_80">#333</color>
+    <color name="text_50">#808080</color>
+    <color name="text_30">#b2b2b2</color>
+    <color name="text_0">#fefefe</color>
+
+    <color name="button">#e1e1e1</color>
+    <color name="button_pressed">#d0d0d0</color>
+    <color name="button_clear_pressed">#eee</color>
+    <color name="button_dropdown">#efefef</color>
+
+
+    <color name="divider">#ddd</color>
+    <color name="clash">#d32</color>
+
+
+    <color name="grid_row">#ddd</color>
+    <color name="grid_column">#f2f2f2</color>
+
+
+    <string-array name="courses">
+        <item>#f44336</item> <!-- Red -->
+        <item>#2196f3</item> <!-- Blue -->
+        <item>#8bc34a</item> <!-- Light Green -->
+        <item>#9c27b0</item> <!-- Purple -->
+        <item>#3f51b5</item> <!-- Indigo -->
+        <item>#e91e63</item> <!-- Pink -->
+        <item>#009688</item> <!-- Teal -->
+        <item>#00bcd4</item> <!-- Cyan -->
+        <item>#ff5722</item> <!-- Deep Orange -->
+        <item>#673ab7</item> <!-- Deep Purple -->
+        <item>#4caf50</item> <!-- Green -->
+        <item>#cddc39</item> <!-- Lime -->
+        <item>#ff9800</item> <!-- Orange -->
+        <item>#607d8b</item> <!-- Blue Grey -->
+        <item>#ffc107</item> <!-- Amber -->
+        <item>#795548</item> <!-- Brown -->
+        <item>#ffeb3b</item> <!-- Yellow -->
+    </string-array>
+</resources>

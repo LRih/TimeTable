@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:padding="@dimen/margin_12">
+
+        <ric.ov.TimeTable.Views.ClassView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nextClass"
+            android:clickable="true"
+            android:background="@drawable/item_clear" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblNextTimeMessage"
+            android:layout_gravity="right"
+            android:textSize="@dimen/text_18"
+            android:textColor="@color/text_50" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_32"
+            android:orientation="vertical"
+            android:id="@+id/layLast">
+
+            <ric.ov.TimeTable.Views.ClassView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lastClass"
+                android:clickable="true"
+                android:background="@drawable/item_clear" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblLastTimeMessage"
+                android:layout_gravity="right"
+                android:textSize="@dimen/text_18"
+                android:textColor="@color/text_50" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

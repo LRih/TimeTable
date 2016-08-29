@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layDrawer">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewPager">
+
+        <android.support.v4.view.PagerTitleStrip
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@color/primary"
+            android:textColor="@color/text_0"
+            android:paddingTop="@dimen/margin_4"
+            android:paddingBottom="@dimen/margin_4" />
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/layEmpty"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_classes_to_show"
+            android:textColor="@color/text_30" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/margin_16">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_from_sts"
+                android:onClick="onSTSClick" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/import_from_personal_sts"
+                android:layout_marginTop="@dimen/margin_8"
+                android:onClick="onImportClick" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+        android:layout_width="@dimen/drawer_width" android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:id="@+id/drawer"
+        android:background="@color/background"
+        android:clickable="true"
+        android:padding="@dimen/margin_8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sts"
+                android:onClick="onSTSClick" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/import_from_personal_sts"
+                style="@style/Theme.Main.Button.Clear"
+                android:layout_marginTop="@dimen/margin_4"
+                android:onClick="onImportClick" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            style="@style/Theme.Main.Button.Clear"
+            android:onClick="onAboutClick"
+            android:src="@drawable/ic_about" />
+    </FrameLayout>
+
+</android.support.v4.widget.DrawerLayout>
+

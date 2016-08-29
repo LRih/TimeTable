@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="@dimen/time_width"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblStart"
+        android:gravity="right"
+        android:ellipsize="end"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="@dimen/time_width"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblDay"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblCourse"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblType"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:singleLine="true" />
+
+</LinearLayout>

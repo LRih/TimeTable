@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ric.ov.TimeTable.Views.WeekViews.VerticalTableView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableView"
+        android:padding="@dimen/margin_12" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layClass"
+        android:background="@drawable/panel"
+        android:visibility="gone">
+
+        <ric.ov.TimeTable.Views.ClassView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/classView"
+            android:clickable="true"
+            android:background="@drawable/item_clear" />
+    </FrameLayout>
+</FrameLayout>
